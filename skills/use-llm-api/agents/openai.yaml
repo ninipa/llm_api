@@ -1,0 +1,4 @@
+interface:
+  display_name: "Use LLM API"
+  short_description: "在别的 Python 项目里接入并使用 llm_api"
+  default_prompt: "Use $use-llm-api to integrate llm_api into this Python project and add the smallest correct call path."
