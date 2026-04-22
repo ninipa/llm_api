@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "llm_api"
+version = "0.1.0"
+description = "OpenAI-compatible LLM client library and CLI"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "requests>=2.31.0",
+]
+
+[project.scripts]
+llm-api = "llm_api.cli.main:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.package-data]
+"llm_api.config" = ["input_extensions.json"]
+
+[tool.setuptools.packages.find]
+where = ["src"]

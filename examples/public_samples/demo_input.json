@@ -1,0 +1,9 @@
+{
+  "task": "summarize_release_notes",
+  "owner": "demo-user",
+  "items": [
+    "整理变更说明",
+    "提取风险点",
+    "给出下一步建议"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "text_file_extensions": [
+    ".txt",
+    ".md",
+    ".json",
+    ".command",
+    ".log",
+    ".sh",
+    ".csh",
+    ".zsh",
+    ".yaml",
+    ".yml",
+    ".toml",
+    ".html",
+    ".htm"
+  ],
+  "image_file_extensions": [
+    ".png",
+    ".jpg",
+    ".jpeg",
+    ".webp",
+    ".gif",
+    ".bmp",
+    ".tiff",
+    ".tif"
+  ]
+}
